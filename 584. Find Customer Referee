@@ -1,0 +1,11 @@
+SELECT name FROM customer WHERE referee_id != 2 OR referee_id IS NULL;
+
+OR 
+
+SELECT name FROM customer WHERE referee_id <> 2 OR referee_id IS NULL;
+
+OR
+
+SELECT name FROM customer WHERE referee_id = NULL OR referee_id <> 2;
+
+
